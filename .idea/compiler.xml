@@ -10,6 +10,7 @@
         <module name="08_Spring_WebMVC" />
         <module name="03_DI_With_Spring" />
         <module name="04_FullModeVsLightMode" />
+        <module name="09_RESTController" />
         <module name="01_Spring_Core" />
         <module name="05_Configurations" />
         <module name="02_Spring_Bean_Life_Cycle" />
