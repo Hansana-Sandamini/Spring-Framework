@@ -15,6 +15,8 @@ public class CharacterMappingController {
         return "Hello World";
     }
 
+    //char/1234/search
+    //char/absd/search
     @GetMapping(path = "????/search")
     public String sayHelloGet() {
         return "Hello World Search";
