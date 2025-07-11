@@ -31,6 +31,8 @@ public class JobServiceImpl implements JobService {
 //        job.setJobDescription(jobDTO.getJobDescription());
 //        jobRepository.save(job);
 
+        // less boilerplate codes
+
         jobRepository.save(modelMapper.map(jobDTO, Job.class));
     }
 
