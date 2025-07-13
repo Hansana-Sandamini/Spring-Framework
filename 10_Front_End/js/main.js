@@ -187,12 +187,22 @@ $(document).ready(function() {
             toggleJobStatus(jobId);
         });
 
+        // Delete job
         $(".delete-job").click(function() {
             const jobId = $(this).data("id");
             if (confirm("Are you sure you want to delete this job?")) {
-                // You'll need to implement a delete endpoint in your backend
-                // For now, we'll just toggle status to "Deleted"
-                toggleJobStatus(jobId);
+                $.ajax({
+                    url: baseUrl + "/delete/" + jobId,
+                    type: "DELETE",
+                    success: function(response) {
+                        loadJobs(); // Refresh the table
+                        alert("Job deleted successfully!");
+                    },
+                    error: function(xhr, status, error) {
+                        console.error("Error deleting job:", error);
+                        alert("Failed to delete job. Please try again.");
+                    }
+                });
             }
         });
     }

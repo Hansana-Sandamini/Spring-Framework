@@ -58,4 +58,9 @@ public class JobServiceImpl implements JobService {
         return modelMapper.map(keywords, new TypeToken<List<JobDTO>>(){}.getType());
     }
 
+    @Override
+    public void deleteJob(String jobId) {
+        jobRepository.deleteById(Integer.parseInt(jobId));
+    }
+
 }

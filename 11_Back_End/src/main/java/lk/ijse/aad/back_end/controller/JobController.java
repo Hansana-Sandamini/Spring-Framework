@@ -48,4 +48,10 @@ public class JobController {
         return jobService.searchJobByKeyword(keyword);
     }
 
+    @DeleteMapping("delete/{id}")
+    public String deleteJob(@PathVariable("id") String jobId) {
+        jobService.deleteJob(jobId);
+        return "Job Deleted";
+    }
+
 }

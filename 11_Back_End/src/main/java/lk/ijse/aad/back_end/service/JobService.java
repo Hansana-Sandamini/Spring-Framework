@@ -11,4 +11,5 @@ public interface JobService {
     public List<JobDTO> getAllJobs();
     public void changeJobStatus(String jobId);
     public List<JobDTO> searchJobByKeyword(String keyword);
+    public void deleteJob(String jobId);
 }
