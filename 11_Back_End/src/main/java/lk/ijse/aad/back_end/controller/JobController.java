@@ -4,6 +4,7 @@ import lk.ijse.aad.back_end.dto.JobDTO;
 import lk.ijse.aad.back_end.entity.Job;
 import lk.ijse.aad.back_end.service.JobService;
 import lombok.RequiredArgsConstructor;
+import org.springframework.data.domain.Page;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -52,6 +53,21 @@ public class JobController {
     public String deleteJob(@PathVariable("id") String jobId) {
         jobService.deleteJob(jobId);
         return "Job Deleted";
+    }
+
+    @GetMapping("getall/paginated")
+    public Page<JobDTO> getAllJobsPaginated(
+            @RequestParam(defaultValue = "0") int page,
+            @RequestParam(defaultValue = "5") int size) {
+        return (Page<JobDTO>) jobService.getAllJobsPaginated(page, size);
+    }
+
+    @GetMapping("search/paginated/{keyword}")
+    public Page<JobDTO> searchJobsPaginated(
+            @PathVariable String keyword,
+            @RequestParam(defaultValue = "0") int page,
+            @RequestParam(defaultValue = "5") int size) {
+        return jobService.searchJobsPaginated(keyword, page, size);
     }
 
 }

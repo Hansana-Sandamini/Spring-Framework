@@ -7,9 +7,11 @@ import lk.ijse.aad.back_end.service.JobService;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.TypeToken;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
-import java.util.Collections;
 import java.util.List;
 
 @Service
@@ -61,6 +63,20 @@ public class JobServiceImpl implements JobService {
     @Override
     public void deleteJob(String jobId) {
         jobRepository.deleteById(Integer.parseInt(jobId));
+    }
+
+    @Override
+    public Page<JobDTO> getAllJobsPaginated(int page, int size) {
+        Pageable pageable = PageRequest.of(page, size);
+        Page<Job> jobPage = jobRepository.findAll(pageable);
+        return jobPage.map(job -> modelMapper.map(job, JobDTO.class));
+    }
+
+    @Override
+    public Page<JobDTO> searchJobsPaginated(String keyword, int page, int size) {
+        Pageable pageable = PageRequest.of(page, size);
+        Page<Job> jobPage = jobRepository.findByJobTitleContainingIgnoreCase(keyword, pageable);
+        return jobPage.map(job -> modelMapper.map(job, JobDTO.class));
     }
 
 }

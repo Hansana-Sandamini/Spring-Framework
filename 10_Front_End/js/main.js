@@ -2,18 +2,34 @@ $(document).ready(function() {
     // Global variables
     let jobs = [];
     const baseUrl = "http://localhost:8080/api/v1/job";
+    let currentPage = 0;
+    const pageSize = 5;
+    let totalPages = 0;
+    let currentKeyword = '';
 
     // Initialize the page
-    loadJobs();
+    loadJobs(currentPage);
 
-    // Load all jobs from backend
-    function loadJobs() {
+    // Load jobs from backend with pagination
+    function loadJobs(page = 0, keyword = '') {
+        currentPage = page;
+        currentKeyword = keyword;
+
+        let url = `${baseUrl}/getall/paginated?page=${page}&size=${pageSize}`;
+
+        // If searching, use search endpoint with pagination
+        if (keyword && keyword.length > 0) {
+            url = `${baseUrl}/search/paginated/${keyword}?page=${page}&size=${pageSize}`;
+        }
+
         $.ajax({
-            url: baseUrl + "/getall",
+            url: url,
             type: "GET",
             success: function(response) {
-                jobs = response;
+                jobs = response.content;
+                totalPages = response.totalPages;
                 renderJobsTable(jobs);
+                renderPaginationControls();
             },
             error: function(xhr, status, error) {
                 console.error("Error loading jobs:", error);
@@ -27,10 +43,19 @@ $(document).ready(function() {
         const tableBody = $("#jobsTableBody");
         tableBody.empty();
 
+        if (jobsToRender.length === 0) {
+            tableBody.append(`
+                <tr>
+                    <td colspan="7" class="text-center">No jobs found</td>
+                </tr>
+            `);
+            return;
+        }
+
         jobsToRender.forEach((job, index) => {
             const row = `
                 <tr>
-                    <td>${index + 1}</td>
+                    <td>${(currentPage * pageSize) + index + 1}</td>
                     <td>${job.jobTitle}</td>
                     <td>${job.company}</td>
                     <td>${job.location}</td>
@@ -60,6 +85,74 @@ $(document).ready(function() {
         attachEventHandlers();
     }
 
+    // Render pagination controls
+    function renderPaginationControls() {
+        const pagination = $("#paginationControls");
+        pagination.empty();
+
+        if (totalPages <= 1) return;
+
+        // Previous button
+        pagination.append(`
+            <li class="page-item ${currentPage === 0 ? 'disabled' : ''}">
+                <a class="page-link" href="#" data-page="${currentPage - 1}">Previous</a>
+            </li>
+        `);
+
+        // Page numbers - show up to 5 pages around current page
+        let startPage = Math.max(0, currentPage - 2);
+        let endPage = Math.min(totalPages - 1, currentPage + 2);
+
+        // Adjust if we're at the beginning
+        if (currentPage < 3) {
+            endPage = Math.min(4, totalPages - 1);
+        }
+        // Adjust if we're at the end
+        else if (currentPage > totalPages - 4) {
+            startPage = Math.max(totalPages - 5, 0);
+        }
+
+        // First page and ellipsis if needed
+        if (startPage > 0) {
+            pagination.append(`
+                <li class="page-item ${0 === currentPage ? 'active' : ''}">
+                    <a class="page-link" href="#" data-page="0">1</a>
+                </li>
+            `);
+            if (startPage > 1) {
+                pagination.append('<li class="page-item disabled"><span class="page-link">...</span></li>');
+            }
+        }
+
+        // Page numbers
+        for (let i = startPage; i <= endPage; i++) {
+            pagination.append(`
+                <li class="page-item ${i === currentPage ? 'active' : ''}">
+                    <a class="page-link" href="#" data-page="${i}">${i + 1}</a>
+                </li>
+            `);
+        }
+
+        // Last page and ellipsis if needed
+        if (endPage < totalPages - 1) {
+            if (endPage < totalPages - 2) {
+                pagination.append('<li class="page-item disabled"><span class="page-link">...</span></li>');
+            }
+            pagination.append(`
+                <li class="page-item ${totalPages - 1 === currentPage ? 'active' : ''}">
+                    <a class="page-link" href="#" data-page="${totalPages - 1}">${totalPages}</a>
+                </li>
+            `);
+        }
+
+        // Next button
+        pagination.append(`
+            <li class="page-item ${currentPage === totalPages - 1 ? 'disabled' : ''}">
+                <a class="page-link" href="#" data-page="${currentPage + 1}">Next</a>
+            </li>
+        `);
+    }
+
     // Save new job
     $("#saveJobBtn").click(function() {
         const jobData = {
@@ -77,8 +170,9 @@ $(document).ready(function() {
             contentType: "application/json",
             data: JSON.stringify(jobData),
             success: function(response) {
-                loadJobs(); // Refresh the table
+                loadJobs(currentPage, currentKeyword); // Refresh the current page
                 $("#addJobForm")[0].reset(); // Reset the form
+                $("#addJobModal").modal("hide");
                 alert("Job created successfully!");
             },
             error: function(xhr, status, error) {
@@ -121,7 +215,8 @@ $(document).ready(function() {
             contentType: "application/json",
             data: JSON.stringify(jobData),
             success: function(response) {
-                loadJobs(); // Refresh the table
+                loadJobs(currentPage, currentKeyword); // Refresh the current page
+                $("#editJobModal").modal("hide");
                 alert("Job updated successfully!");
             },
             error: function(xhr, status, error) {
@@ -137,7 +232,7 @@ $(document).ready(function() {
             url: baseUrl + "/changestatus/" + jobId,
             type: "PATCH",
             success: function(response) {
-                loadJobs(); // Refresh the table
+                loadJobs(currentPage, currentKeyword); // Refresh the current page
                 alert("Job status updated successfully!");
             },
             error: function(xhr, status, error) {
@@ -150,29 +245,14 @@ $(document).ready(function() {
     // Search functionality
     $("#searchInput").on("keyup", function() {
         const keyword = $(this).val().trim();
+        loadJobs(0, keyword); // Always reset to first page when searching
+    });
 
-        if (keyword.length > 0) {
-            $.ajax({
-                url: baseUrl + "/search/" + keyword,
-                type: "GET",
-                success: function(response) {
-                    renderJobsTable(response);
-                },
-                error: function(xhr, status, error) {
-                    console.error("Error searching jobs:", error);
-                    // Fallback to client-side filtering if API fails
-                    const filteredJobs = jobs.filter(job =>
-                        job.jobTitle.toLowerCase().includes(keyword.toLowerCase()) ||
-                        job.company.toLowerCase().includes(keyword.toLowerCase()) ||
-                        job.location.toLowerCase().includes(keyword.toLowerCase())
-                    );
-                    renderJobsTable(filteredJobs);
-                }
-            });
-        } else {
-            // If search field is empty, show all jobs
-            renderJobsTable(jobs);
-        }
+    // Pagination click handler
+    $(document).on('click', '.page-link', function(e) {
+        e.preventDefault();
+        const page = $(this).data('page');
+        loadJobs(page, currentKeyword);
     });
 
     // Attach event handlers to dynamic elements
@@ -187,7 +267,6 @@ $(document).ready(function() {
             toggleJobStatus(jobId);
         });
 
-        // Delete job
         $(".delete-job").click(function() {
             const jobId = $(this).data("id");
             if (confirm("Are you sure you want to delete this job?")) {
@@ -195,7 +274,12 @@ $(document).ready(function() {
                     url: baseUrl + "/delete/" + jobId,
                     type: "DELETE",
                     success: function(response) {
-                        loadJobs(); // Refresh the table
+                        // If we're on the last page and it's now empty, go to previous page
+                        if (jobs.length === 1 && currentPage > 0) {
+                            loadJobs(currentPage - 1, currentKeyword);
+                        } else {
+                            loadJobs(currentPage, currentKeyword);
+                        }
                         alert("Job deleted successfully!");
                     },
                     error: function(xhr, status, error) {

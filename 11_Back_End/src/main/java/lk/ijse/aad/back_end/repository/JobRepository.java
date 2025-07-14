@@ -2,6 +2,8 @@ package lk.ijse.aad.back_end.repository;
 
 import jakarta.transaction.Transactional;
 import lk.ijse.aad.back_end.entity.Job;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
@@ -17,4 +19,7 @@ public interface JobRepository extends JpaRepository<Job,Integer> {
     void updateJobByStatus(String jobId);
 
     List<Job> findJobByJobTitleContainingIgnoreCase(String keyword);
+
+    Page<Job> findByJobTitleContainingIgnoreCase(String keyword, Pageable pageable);
+
 }
