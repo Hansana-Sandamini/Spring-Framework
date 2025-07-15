@@ -1,10 +1,16 @@
 package lk.ijse.aad.back_end.controller;
 
+import jakarta.validation.Valid;
 import lk.ijse.aad.back_end.dto.JobDTO;
-import lk.ijse.aad.back_end.entity.Job;
 import lk.ijse.aad.back_end.service.JobService;
+import lk.ijse.aad.back_end.util.APIResponse;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.data.domain.Page;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -13,46 +19,67 @@ import java.util.List;
 @RequestMapping("api/v1/job")
 @RequiredArgsConstructor
 @CrossOrigin
+@Slf4j
 public class JobController {
 
     private final JobService jobService;
+//    private static final Logger logger = LoggerFactory.getLogger(JobController.class);
 
     @PostMapping("create")
-    public String createJob(@RequestBody JobDTO jobDTO) {
+    public ResponseEntity<APIResponse<String>> createJob(@RequestBody @Valid JobDTO jobDTO) {
+//        logger.info("Job Created Successfully");
+//        logger.debug("Job Details : {} ", jobDTO);
+//        logger.error("Job Creation Error");
+//        logger.trace("Job Creation Trace");
+//        logger.warn("Job Creation Warning");
+        log.info("Job Created Successfully");
+        log.debug("Job Details : {} ", jobDTO);
+        log.error("Job Creation Error");
+        log.trace("Job Creation Trace");
+        log.warn("Job Creation Warning");
+
         jobService.saveJob(jobDTO);
-        return "Job Created";
+//        return "Job Created";
+        return new ResponseEntity(new APIResponse<>(201, "Job Created Successfully", null),
+                HttpStatus.CREATED);
     }
 
     @GetMapping("getall")
-    public List<JobDTO> getAllJob() {
-        return jobService.getAllJobs();
+    public ResponseEntity<APIResponse<List<JobDTO>>> getAllJob() {
+        List<JobDTO> jobDTOS = jobService.getAllJobs();
+        return ResponseEntity.ok(new APIResponse<>(200,"Job List Fetched Successfully", jobDTOS));
+//        return jobService.getAllJobs();
 //        return "Job Retrieved";
     }
 
     @PutMapping("update")
-    public String updateJob(@RequestBody Job job) {
+    public ResponseEntity<APIResponse<String>> updateJob(@RequestBody @Valid JobDTO job) {
         jobService.updateJob(job);
-        return "Job Updated";
+//        return "Job Updated";
+        return ResponseEntity.ok(new APIResponse<>(200, "Job Updated Successfully", null));
     }
 
     @PatchMapping("changestatus/{id}")
-    public String changeJobStaus(@PathVariable("id") String jobId) {
+    public ResponseEntity<APIResponse<String>> changeJobStatus(@PathVariable("id") String jobId){
         System.out.println(jobId);
         jobService.changeJobStatus(jobId);
-        // call service layer
-        return "Job Status Updated";
+//        return "Job Status Updated";
+        return ResponseEntity.ok(new APIResponse<>(200, "Job Status Changed Successfully", null));
     }
 
     @GetMapping("search/{keyword}")
-    public List<JobDTO> searchJob(@PathVariable("keyword") String keyword) {
+    public ResponseEntity<APIResponse<List<JobDTO>>> searchJob(@PathVariable("keyword") String keyword) {
 //        return "Job Searched";
-        return jobService.searchJobByKeyword(keyword);
+        List<JobDTO> jobDTOS = jobService.searchJobByKeyword(keyword);
+        return ResponseEntity.ok(new APIResponse<>(200,"Job Searched Successfully", jobDTOS));
+//        return jobService.searchJobByKeyword(keyword);
     }
 
     @DeleteMapping("delete/{id}")
-    public String deleteJob(@PathVariable("id") String jobId) {
+    public ResponseEntity<APIResponse<String>> deleteJob(@PathVariable("id") String jobId) {
         jobService.deleteJob(jobId);
-        return "Job Deleted";
+//        return "Job Deleted";
+        return ResponseEntity.ok(new APIResponse<>(200, "Job Deleted Successfully", null));
     }
 
     @GetMapping("getall/paginated")

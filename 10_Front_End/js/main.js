@@ -19,7 +19,7 @@ $(document).ready(function() {
 
         // If searching, use search endpoint with pagination
         if (keyword && keyword.length > 0) {
-            url = `${baseUrl}/search/paginated/${keyword}?page=${page}&size=${pageSize}`;
+            url = `${baseUrl}/search/paginated/${encodeURIComponent(keyword)}?page=${page}&size=${pageSize}`;
         }
 
         $.ajax({
@@ -33,7 +33,14 @@ $(document).ready(function() {
             },
             error: function(xhr, status, error) {
                 console.error("Error loading jobs:", error);
-                alert("Failed to load jobs. Please try again.");
+                if (xhr.status === 404) {
+                    // Handle no jobs found case
+                    jobs = [];
+                    renderJobsTable([]);
+                    renderPaginationControls();
+                } else {
+                    alert("Failed to load jobs. Please try again.");
+                }
             }
         });
     }
@@ -155,13 +162,22 @@ $(document).ready(function() {
 
     // Save new job
     $("#saveJobBtn").click(function() {
+        const jobTitle = $("#jobTitle").val().trim();
+        const company = $("#companyName").val().trim();
+        const location = $("#jobLocation").val().trim();
+
+        if (!jobTitle || !company || !location) {
+            alert("Please fill in all required fields");
+            return;
+        }
+
         const jobData = {
-            jobTitle: $("#jobTitle").val(),
-            company: $("#companyName").val(),
-            location: $("#jobLocation").val(),
+            jobTitle: jobTitle,
+            company: company,
+            location: location,
             type: $("#jobType").val(),
             jobDescription: $("#jobDescription").val(),
-            status: "Active" // default status
+            status: "Active"
         };
 
         $.ajax({
@@ -170,14 +186,14 @@ $(document).ready(function() {
             contentType: "application/json",
             data: JSON.stringify(jobData),
             success: function(response) {
-                loadJobs(currentPage, currentKeyword); // Refresh the current page
-                $("#addJobForm")[0].reset(); // Reset the form
+                loadJobs(0); // Always go to first page after creating
+                $("#addJobForm")[0].reset();
                 $("#addJobModal").modal("hide");
                 alert("Job created successfully!");
             },
             error: function(xhr, status, error) {
                 console.error("Error creating job:", error);
-                alert("Failed to create job. Please try again.");
+                alert(xhr.responseJSON?.message || "Failed to create job. Please try again.");
             }
         });
     });
@@ -199,14 +215,23 @@ $(document).ready(function() {
 
     // Update job
     $("#updateJobBtn").click(function() {
+        const jobTitle = $("#editJobTitle").val().trim();
+        const company = $("#editCompanyName").val().trim();
+        const location = $("#editJobLocation").val().trim();
+
+        if (!jobTitle || !company || !location) {
+            alert("Please fill in all required fields");
+            return;
+        }
+
         const jobData = {
             id: $("#editJobId").val(),
-            jobTitle: $("#editJobTitle").val(),
-            company: $("#editCompanyName").val(),
-            location: $("#editJobLocation").val(),
+            jobTitle: jobTitle,
+            company: company,
+            location: location,
             type: $("#editJobType").val(),
             jobDescription: $("#editJobDescription").val(),
-            status: "Active" // maintain status
+            status: "Active"
         };
 
         $.ajax({
@@ -215,29 +240,33 @@ $(document).ready(function() {
             contentType: "application/json",
             data: JSON.stringify(jobData),
             success: function(response) {
-                loadJobs(currentPage, currentKeyword); // Refresh the current page
+                loadJobs(currentPage, currentKeyword);
                 $("#editJobModal").modal("hide");
                 alert("Job updated successfully!");
             },
             error: function(xhr, status, error) {
                 console.error("Error updating job:", error);
-                alert("Failed to update job. Please try again.");
+                alert(xhr.responseJSON?.message || "Failed to update job. Please try again.");
             }
         });
     });
 
     // Toggle job status
     function toggleJobStatus(jobId) {
+        if (!confirm("Are you sure you want to change this job's status?")) {
+            return;
+        }
+
         $.ajax({
             url: baseUrl + "/changestatus/" + jobId,
             type: "PATCH",
             success: function(response) {
-                loadJobs(currentPage, currentKeyword); // Refresh the current page
+                loadJobs(currentPage, currentKeyword);
                 alert("Job status updated successfully!");
             },
             error: function(xhr, status, error) {
                 console.error("Error toggling job status:", error);
-                alert("Failed to update job status. Please try again.");
+                alert(xhr.responseJSON?.message || "Failed to update job status. Please try again.");
             }
         });
     }
@@ -245,14 +274,16 @@ $(document).ready(function() {
     // Search functionality
     $("#searchInput").on("keyup", function() {
         const keyword = $(this).val().trim();
-        loadJobs(0, keyword); // Always reset to first page when searching
+        loadJobs(0, keyword); // Reset to first page when searching
     });
 
     // Pagination click handler
     $(document).on('click', '.page-link', function(e) {
         e.preventDefault();
         const page = $(this).data('page');
-        loadJobs(page, currentKeyword);
+        if (page >= 0 && page < totalPages) {
+            loadJobs(page, currentKeyword);
+        }
     });
 
     // Attach event handlers to dynamic elements
@@ -269,12 +300,12 @@ $(document).ready(function() {
 
         $(".delete-job").click(function() {
             const jobId = $(this).data("id");
-            if (confirm("Are you sure you want to delete this job?")) {
+            if (confirm("Are you sure you want to delete this job? This action cannot be undone.")) {
                 $.ajax({
                     url: baseUrl + "/delete/" + jobId,
                     type: "DELETE",
                     success: function(response) {
-                        // If we're on the last page and it's now empty, go to previous page
+                        // Handle empty last page case
                         if (jobs.length === 1 && currentPage > 0) {
                             loadJobs(currentPage - 1, currentKeyword);
                         } else {
@@ -284,7 +315,7 @@ $(document).ready(function() {
                     },
                     error: function(xhr, status, error) {
                         console.error("Error deleting job:", error);
-                        alert("Failed to delete job. Please try again.");
+                        alert(xhr.responseJSON?.message || "Failed to delete job. Please try again.");
                     }
                 });
             }

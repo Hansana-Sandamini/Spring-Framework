@@ -8,7 +8,7 @@ import java.util.List;
 
 public interface JobService {
     public void saveJob(JobDTO jobDTO);
-    public void updateJob(Job job);
+    public void updateJob(JobDTO jobDTO);
     public List<JobDTO> getAllJobs();
     public void changeJobStatus(String jobId);
     public List<JobDTO> searchJobByKeyword(String keyword);
