@@ -32,11 +32,11 @@ public class JobController {
 //        logger.error("Job Creation Error");
 //        logger.trace("Job Creation Trace");
 //        logger.warn("Job Creation Warning");
-        log.info("Job Created Successfully");
-        log.debug("Job Details : {} ", jobDTO);
-        log.error("Job Creation Error");
-        log.trace("Job Creation Trace");
-        log.warn("Job Creation Warning");
+        log.info("Job Created Successfully");   // Business logic related information
+        log.debug("Job Details : {} ", jobDTO);  // Details of debugging information
+        log.error("Job Creation Error");    // System errors or failers
+        log.trace("Job Creation Trace");    // Data tracing
+        log.warn("Job Creation Warning");   // Potential problems
 
         jobService.saveJob(jobDTO);
 //        return "Job Created";
