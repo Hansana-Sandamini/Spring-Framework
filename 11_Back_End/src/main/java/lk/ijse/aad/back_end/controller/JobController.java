@@ -39,7 +39,6 @@ public class JobController {
         log.warn("Job Creation Warning");   // Potential problems
 
         jobService.saveJob(jobDTO);
-//        return "Job Created";
         return new ResponseEntity(new APIResponse<>(201, "Job Created Successfully", null),
                 HttpStatus.CREATED);
     }
@@ -48,14 +47,11 @@ public class JobController {
     public ResponseEntity<APIResponse<List<JobDTO>>> getAllJob() {
         List<JobDTO> jobDTOS = jobService.getAllJobs();
         return ResponseEntity.ok(new APIResponse<>(200,"Job List Fetched Successfully", jobDTOS));
-//        return jobService.getAllJobs();
-//        return "Job Retrieved";
     }
 
     @PutMapping("update")
     public ResponseEntity<APIResponse<String>> updateJob(@RequestBody @Valid JobDTO job) {
         jobService.updateJob(job);
-//        return "Job Updated";
         return ResponseEntity.ok(new APIResponse<>(200, "Job Updated Successfully", null));
     }
 
@@ -63,22 +59,18 @@ public class JobController {
     public ResponseEntity<APIResponse<String>> changeJobStatus(@PathVariable("id") String jobId){
         System.out.println(jobId);
         jobService.changeJobStatus(jobId);
-//        return "Job Status Updated";
         return ResponseEntity.ok(new APIResponse<>(200, "Job Status Changed Successfully", null));
     }
 
     @GetMapping("search/{keyword}")
     public ResponseEntity<APIResponse<List<JobDTO>>> searchJob(@PathVariable("keyword") String keyword) {
-//        return "Job Searched";
         List<JobDTO> jobDTOS = jobService.searchJobByKeyword(keyword);
         return ResponseEntity.ok(new APIResponse<>(200,"Job Searched Successfully", jobDTOS));
-//        return jobService.searchJobByKeyword(keyword);
     }
 
     @DeleteMapping("delete/{id}")
     public ResponseEntity<APIResponse<String>> deleteJob(@PathVariable("id") String jobId) {
         jobService.deleteJob(jobId);
-//        return "Job Deleted";
         return ResponseEntity.ok(new APIResponse<>(200, "Job Deleted Successfully", null));
     }
 
