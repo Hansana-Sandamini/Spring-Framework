@@ -1,7 +1,6 @@
 package lk.ijse.aad.back_end.service;
 
 import lk.ijse.aad.back_end.dto.JobDTO;
-import lk.ijse.aad.back_end.entity.Job;
 import org.springframework.data.domain.Page;
 
 import java.util.List;
