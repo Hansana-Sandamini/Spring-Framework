@@ -77,7 +77,7 @@ public class JobController {
     @GetMapping("getall/paginated")
     public Page<JobDTO> getAllJobsPaginated(
             @RequestParam(defaultValue = "0") int page,
-            @RequestParam(defaultValue = "5") int size) {
+            @RequestParam(defaultValue = "10") int size) {
         return (Page<JobDTO>) jobService.getAllJobsPaginated(page, size);
     }
 
@@ -85,7 +85,7 @@ public class JobController {
     public Page<JobDTO> searchJobsPaginated(
             @PathVariable String keyword,
             @RequestParam(defaultValue = "0") int page,
-            @RequestParam(defaultValue = "5") int size) {
+            @RequestParam(defaultValue = "10") int size) {
         return jobService.searchJobsPaginated(keyword, page, size);
     }
 
