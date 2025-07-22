@@ -1,22 +1,22 @@
-2025-07-20T20:57:17.425+05:30  INFO 31894 --- [11_Back_End] [main] lk.ijse.aad.back_end.Application         : Starting Application using Java 21.0.7 with PID 31894 (/home/hansana/Documents/AAD/SPRING/Spring Framework/11_Back_End/target/classes started by hansana in /home/hansana/Documents/AAD/SPRING/Spring Framework)
-2025-07-20T20:57:17.429+05:30 DEBUG 31894 --- [11_Back_End] [main] lk.ijse.aad.back_end.Application         : Running with Spring Boot v3.5.3, Spring v6.2.8
-2025-07-20T20:57:17.430+05:30  INFO 31894 --- [11_Back_End] [main] lk.ijse.aad.back_end.Application         : No active profile set, falling back to 1 default profile: "default"
-2025-07-20T20:57:18.144+05:30  INFO 31894 --- [11_Back_End] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-07-20T20:57:18.195+05:30  INFO 31894 --- [11_Back_End] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interface.
-2025-07-20T20:57:18.674+05:30  INFO 31894 --- [11_Back_End] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-07-20T20:57:18.688+05:30  INFO 31894 --- [11_Back_End] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-07-20T20:57:18.688+05:30  INFO 31894 --- [11_Back_End] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-20T20:57:18.733+05:30  INFO 31894 --- [11_Back_End] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-07-20T20:57:18.734+05:30  INFO 31894 --- [11_Back_End] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1263 ms
-2025-07-20T20:57:18.900+05:30  INFO 31894 --- [11_Back_End] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-07-20T20:57:18.976+05:30  INFO 31894 --- [11_Back_End] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
-2025-07-20T20:57:19.022+05:30  INFO 31894 --- [11_Back_End] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-07-20T20:57:19.372+05:30  INFO 31894 --- [11_Back_End] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-07-20T20:57:19.408+05:30  INFO 31894 --- [11_Back_End] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-07-20T20:57:20.284+05:30  INFO 31894 --- [11_Back_End] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e85e3f1
-2025-07-20T20:57:20.286+05:30  INFO 31894 --- [11_Back_End] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-07-20T20:57:20.421+05:30  WARN 31894 --- [11_Back_End] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-07-20T20:57:20.444+05:30  INFO 31894 --- [11_Back_End] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-07-21T14:25:38.119+05:30  INFO 30797 --- [11_Back_End] [main] lk.ijse.aad.back_end.Application         : Starting Application using Java 21.0.7 with PID 30797 (/home/hansana/Documents/AAD/SPRING/Spring Framework/11_Back_End/target/classes started by hansana in /home/hansana/Documents/AAD/SPRING/Spring Framework)
+2025-07-21T14:25:38.125+05:30 DEBUG 30797 --- [11_Back_End] [main] lk.ijse.aad.back_end.Application         : Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-21T14:25:38.125+05:30  INFO 30797 --- [11_Back_End] [main] lk.ijse.aad.back_end.Application         : No active profile set, falling back to 1 default profile: "default"
+2025-07-21T14:25:38.655+05:30  INFO 30797 --- [11_Back_End] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-21T14:25:38.719+05:30  INFO 30797 --- [11_Back_End] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 1 JPA repository interface.
+2025-07-21T14:25:39.087+05:30  INFO 30797 --- [11_Back_End] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-21T14:25:39.096+05:30  INFO 30797 --- [11_Back_End] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-21T14:25:39.096+05:30  INFO 30797 --- [11_Back_End] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-21T14:25:39.128+05:30  INFO 30797 --- [11_Back_End] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-21T14:25:39.128+05:30  INFO 30797 --- [11_Back_End] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 967 ms
+2025-07-21T14:25:39.247+05:30  INFO 30797 --- [11_Back_End] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-21T14:25:39.295+05:30  INFO 30797 --- [11_Back_End] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-21T14:25:39.325+05:30  INFO 30797 --- [11_Back_End] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-07-21T14:25:39.498+05:30  INFO 30797 --- [11_Back_End] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-21T14:25:39.524+05:30  INFO 30797 --- [11_Back_End] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-21T14:25:40.422+05:30  INFO 30797 --- [11_Back_End] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@793d09e
+2025-07-21T14:25:40.426+05:30  INFO 30797 --- [11_Back_End] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-21T14:25:40.578+05:30  WARN 30797 --- [11_Back_End] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-21T14:25:40.590+05:30  INFO 30797 --- [11_Back_End] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 8.0.42
@@ -24,327 +24,73 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-07-20T20:57:21.287+05:30  INFO 31894 --- [11_Back_End] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-07-20T20:57:21.403+05:30  INFO 31894 --- [11_Back_End] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-07-20T20:57:21.640+05:30  INFO 31894 --- [11_Back_End] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-07-20T20:57:21.755+05:30  WARN 31894 --- [11_Back_End] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-07-20T20:57:21.843+05:30 DEBUG 31894 --- [11_Back_End] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 10 mappings in 'requestMappingHandlerMapping'
-2025-07-20T20:57:21.933+05:30 DEBUG 31894 --- [11_Back_End] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2025-07-20T20:57:21.957+05:30 DEBUG 31894 --- [11_Back_End] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2025-07-20T20:57:21.998+05:30 DEBUG 31894 --- [11_Back_End] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
-2025-07-20T20:57:22.132+05:30  INFO 31894 --- [11_Back_End] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-07-20T20:57:22.141+05:30  INFO 31894 --- [11_Back_End] [main] lk.ijse.aad.back_end.Application         : Started Application in 5.289 seconds (process running for 6.543)
-2025-07-20T20:57:27.177+05:30  INFO 31894 --- [11_Back_End] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-07-20T20:57:27.178+05:30  INFO 31894 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-07-20T20:57:27.178+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
-2025-07-20T20:57:27.178+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
-2025-07-20T20:57:27.178+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
-2025-07-20T20:57:27.179+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5318731f
-2025-07-20T20:57:27.180+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@10b7b5f0
-2025-07-20T20:57:27.180+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
-2025-07-20T20:57:27.180+05:30  INFO 31894 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2025-07-20T20:57:27.190+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=0&size=5", parameters={masked}
-2025-07-20T20:57:27.201+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T20:57:27.533+05:30  WARN 31894 --- [11_Back_End] [http-nio-8080-exec-1] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
-	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
-	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
-
-2025-07-20T20:57:27.540+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T20:57:27.542+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 1 of 3 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T20:57:27.569+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T20:57:29.633+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=1&size=5", parameters={masked}
-2025-07-20T20:57:29.634+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T20:57:29.650+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T20:57:29.651+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 2 of 3 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T20:57:29.652+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T20:57:30.960+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=2&size=5", parameters={masked}
-2025-07-20T20:57:30.961+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T20:57:30.975+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T20:57:30.976+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 3 of 3 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T20:57:30.977+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T20:57:34.383+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=0&size=5", parameters={masked}
-2025-07-20T20:57:34.384+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T20:57:34.405+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T20:57:34.406+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 1 of 3 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T20:57:34.407+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T20:57:37.809+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=2&size=5", parameters={masked}
-2025-07-20T20:57:37.810+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T20:57:37.822+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T20:57:37.822+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 3 of 3 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T20:57:37.823+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T20:57:42.396+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=0&size=5", parameters={masked}
-2025-07-20T20:57:42.397+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T20:57:42.436+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T20:57:42.437+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 1 of 3 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T20:57:42.440+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:00:17.148+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : OPTIONS "/api/v1/job/create", parameters={}
-2025-07-20T21:00:17.149+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#createJob(JobDTO)
-2025-07-20T21:00:17.151+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:00:17.168+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : POST "/api/v1/job/create", parameters={}
-2025-07-20T21:00:17.169+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#createJob(JobDTO)
-2025-07-20T21:00:17.223+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [lk.ijse.aad.back_end.dto.JobDTO@3650761c]
-2025-07-20T21:00:17.268+05:30  INFO 31894 --- [11_Back_End] [http-nio-8080-exec-9] l.i.a.back_end.controller.JobController  : Job Created Successfully
-2025-07-20T21:00:17.268+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-9] l.i.a.back_end.controller.JobController  : Job Details : lk.ijse.aad.back_end.dto.JobDTO@3650761c 
-2025-07-20T21:00:17.268+05:30 ERROR 31894 --- [11_Back_End] [http-nio-8080-exec-9] l.i.a.back_end.controller.JobController  : Job Creation Error
-2025-07-20T21:00:17.268+05:30  WARN 31894 --- [11_Back_End] [http-nio-8080-exec-9] l.i.a.back_end.controller.JobController  : Job Creation Warning
-2025-07-20T21:00:17.369+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:00:17.369+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [lk.ijse.aad.back_end.util.APIResponse@2ca6eeba]
-2025-07-20T21:00:17.372+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
-2025-07-20T21:00:17.386+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=0&size=5", parameters={masked}
-2025-07-20T21:00:17.388+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:00:17.421+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:00:17.422+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 1 of 3 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:00:17.426+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:00:21.145+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=2&size=5", parameters={masked}
-2025-07-20T21:00:21.146+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:00:21.158+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:00:21.158+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 3 of 3 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:00:21.160+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:00:26.937+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : OPTIONS "/api/v1/job/update", parameters={}
-2025-07-20T21:00:26.938+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#updateJob(JobDTO)
-2025-07-20T21:00:26.939+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:00:26.944+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : PUT "/api/v1/job/update", parameters={}
-2025-07-20T21:00:26.944+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#updateJob(JobDTO)
-2025-07-20T21:00:26.948+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [lk.ijse.aad.back_end.dto.JobDTO@306f607a]
-2025-07-20T21:00:27.026+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:00:27.026+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [lk.ijse.aad.back_end.util.APIResponse@66a4da2c]
-2025-07-20T21:00:27.028+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:00:27.038+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=2&size=5", parameters={masked}
-2025-07-20T21:00:27.039+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:00:27.057+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:00:27.058+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 3 of 3 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:00:27.060+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:00:36.100+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=0&size=5", parameters={masked}
-2025-07-20T21:00:36.101+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:00:36.130+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:00:36.131+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 1 of 3 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:00:36.132+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:00:40.281+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=2&size=5", parameters={masked}
-2025-07-20T21:00:40.282+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:00:40.290+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:00:40.291+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 3 of 3 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:00:40.292+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:01:21.654+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=0&size=5", parameters={masked}
-2025-07-20T21:01:21.656+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:01:21.682+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:01:21.682+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 1 of 3 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:01:21.684+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:01:23.847+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=0&size=5", parameters={masked}
-2025-07-20T21:01:23.848+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:01:23.866+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:01:23.867+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 1 of 3 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:01:23.868+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:01:25.647+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=2&size=5", parameters={masked}
-2025-07-20T21:01:25.648+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:01:25.659+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:01:25.659+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 3 of 3 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:01:25.660+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:01:30.269+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : PUT "/api/v1/job/update", parameters={}
-2025-07-20T21:01:30.270+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#updateJob(JobDTO)
-2025-07-20T21:01:30.271+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [lk.ijse.aad.back_end.dto.JobDTO@271eca0c]
-2025-07-20T21:01:30.303+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:01:30.304+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [lk.ijse.aad.back_end.util.APIResponse@1fe569b9]
-2025-07-20T21:01:30.305+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:01:30.318+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=2&size=5", parameters={masked}
-2025-07-20T21:01:30.318+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:01:30.335+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:01:30.336+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 3 of 3 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:01:30.338+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:02:20.591+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : OPTIONS "/api/v1/job/delete/17", parameters={}
-2025-07-20T21:02:20.592+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#deleteJob(String)
-2025-07-20T21:02:20.593+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:02:20.599+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : DELETE "/api/v1/job/delete/17", parameters={}
-2025-07-20T21:02:20.600+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#deleteJob(String)
-2025-07-20T21:02:20.633+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:02:20.634+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [lk.ijse.aad.back_end.util.APIResponse@5fc1af5]
-2025-07-20T21:02:20.635+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:02:20.643+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=2&size=5", parameters={masked}
-2025-07-20T21:02:20.644+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:02:20.658+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:02:20.659+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 3 of 3 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:02:20.662+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:03:48.044+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=0&size=5", parameters={masked}
-2025-07-20T21:03:48.044+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:03:48.062+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:03:48.063+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 1 of 3 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:03:48.064+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:04:34.413+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/search/paginated/i?page=0&size=5", parameters={masked}
-2025-07-20T21:04:34.413+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#searchJobsPaginated(String, int, int)
-2025-07-20T21:04:34.462+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:04:34.462+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 1 of 2 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:04:34.463+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:04:35.146+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/search/paginated/ij?page=0&size=5", parameters={masked}
-2025-07-20T21:04:35.147+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#searchJobsPaginated(String, int, int)
-2025-07-20T21:04:35.155+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:04:35.155+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 1 of 0 containing UNKNOWN instances]
-2025-07-20T21:04:35.156+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:04:36.887+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/search/paginated/i?page=0&size=5", parameters={masked}
-2025-07-20T21:04:36.888+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#searchJobsPaginated(String, int, int)
-2025-07-20T21:04:36.922+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:04:36.923+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 1 of 2 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:04:36.933+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:04:37.845+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=0&size=5", parameters={masked}
-2025-07-20T21:04:37.846+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:04:37.866+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:04:37.866+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 1 of 3 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:04:37.867+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:04:38.530+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/search/paginated/j?page=0&size=5", parameters={masked}
-2025-07-20T21:04:38.531+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#searchJobsPaginated(String, int, int)
-2025-07-20T21:04:38.539+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:04:38.539+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 1 of 1 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:04:38.540+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:04:39.748+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=0&size=5", parameters={masked}
-2025-07-20T21:04:39.748+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:04:39.763+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:04:39.763+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 1 of 3 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:04:39.764+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:09:45.750+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=0&size=5", parameters={masked}
-2025-07-20T21:09:45.750+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:09:45.768+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:09:45.769+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 1 of 3 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:09:45.770+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:09:47.083+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=0&size=5", parameters={masked}
-2025-07-20T21:09:47.084+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:09:47.097+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:09:47.097+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 1 of 3 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:09:47.098+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:09:48.304+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=2&size=5", parameters={masked}
-2025-07-20T21:09:48.305+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:09:48.308+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:09:48.308+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 3 of 3 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:09:48.309+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:10:00.369+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : PUT "/api/v1/job/update", parameters={}
-2025-07-20T21:10:00.370+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#updateJob(JobDTO)
-2025-07-20T21:10:00.371+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [lk.ijse.aad.back_end.dto.JobDTO@4bf1b8c1]
-2025-07-20T21:10:00.390+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:10:00.391+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [lk.ijse.aad.back_end.util.APIResponse@531e11b]
-2025-07-20T21:10:00.392+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:10:00.398+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=2&size=5", parameters={masked}
-2025-07-20T21:10:00.399+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:10:00.407+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:10:00.407+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 3 of 3 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:10:00.408+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:11:25.526+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=0&size=5", parameters={masked}
-2025-07-20T21:11:25.527+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:11:25.533+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:11:25.534+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 1 of 3 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:11:25.536+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:11:26.286+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=0&size=5", parameters={masked}
-2025-07-20T21:11:26.286+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:11:26.300+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:11:26.301+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 1 of 3 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:11:26.302+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:11:27.454+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=2&size=5", parameters={masked}
-2025-07-20T21:11:27.454+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:11:27.464+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:11:27.464+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 3 of 3 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:11:27.466+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:11:33.302+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : PUT "/api/v1/job/update", parameters={}
-2025-07-20T21:11:33.303+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#updateJob(JobDTO)
-2025-07-20T21:11:33.305+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [lk.ijse.aad.back_end.dto.JobDTO@1f90ea57]
-2025-07-20T21:11:33.327+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:11:33.328+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [lk.ijse.aad.back_end.util.APIResponse@57ba4c86]
-2025-07-20T21:11:33.329+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:11:33.336+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=2&size=5", parameters={masked}
-2025-07-20T21:11:33.337+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:11:33.345+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:11:33.346+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 3 of 3 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:11:33.348+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:12:33.748+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=0&size=5", parameters={masked}
-2025-07-20T21:12:33.749+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:12:33.774+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:12:33.775+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 1 of 3 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:12:33.776+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:12:35.486+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=0&size=5", parameters={masked}
-2025-07-20T21:12:35.486+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:12:35.492+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:12:35.492+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 1 of 3 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:12:35.493+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:12:37.144+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=1&size=5", parameters={masked}
-2025-07-20T21:12:37.145+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:12:37.158+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:12:37.159+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 2 of 3 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:12:37.159+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:12:37.906+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=2&size=5", parameters={masked}
-2025-07-20T21:12:37.907+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:12:37.917+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:12:37.917+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 3 of 3 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:12:37.918+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:12:39.110+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=0&size=5", parameters={masked}
-2025-07-20T21:12:39.110+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:12:39.127+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:12:39.128+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 1 of 3 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:12:39.129+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:13:05.577+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=0&size=10", parameters={masked}
-2025-07-20T21:13:05.578+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:13:05.595+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:13:05.595+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 1 of 2 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:13:05.596+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:13:08.464+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=1&size=10", parameters={masked}
-2025-07-20T21:13:08.464+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:13:08.471+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:13:08.471+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 2 of 2 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:13:08.472+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:13:09.857+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=0&size=10", parameters={masked}
-2025-07-20T21:13:09.858+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:13:09.875+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:13:09.875+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 1 of 2 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:13:09.876+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:13:34.573+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=1&size=10", parameters={masked}
-2025-07-20T21:13:34.573+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:13:34.580+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:13:34.580+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 2 of 2 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:13:34.581+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:13:35.941+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=0&size=10", parameters={masked}
-2025-07-20T21:13:35.942+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:13:35.958+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:13:35.959+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 1 of 2 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:13:35.959+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:13:46.073+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=1&size=10", parameters={masked}
-2025-07-20T21:13:46.073+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:13:46.081+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:13:46.082+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 2 of 2 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:13:46.083+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:13:47.703+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=0&size=10", parameters={masked}
-2025-07-20T21:13:47.704+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:13:47.722+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:13:47.722+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 1 of 2 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:13:47.723+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:13:58.496+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : PUT "/api/v1/job/update", parameters={}
-2025-07-20T21:13:58.496+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#updateJob(JobDTO)
-2025-07-20T21:13:58.497+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [lk.ijse.aad.back_end.dto.JobDTO@3c07987c]
-2025-07-20T21:13:58.514+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:13:58.514+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [lk.ijse.aad.back_end.util.APIResponse@266a5c68]
-2025-07-20T21:13:58.514+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:13:58.518+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=0&size=10", parameters={masked}
-2025-07-20T21:13:58.518+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:13:58.524+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:13:58.524+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 1 of 2 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:13:58.525+05:30 DEBUG 31894 --- [11_Back_End] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:31:50.855+05:30  INFO 31894 --- [11_Back_End] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-07-20T21:31:50.858+05:30  INFO 31894 --- [11_Back_End] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-07-20T21:31:50.862+05:30  INFO 31894 --- [11_Back_End] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-07-20T21:31:50.864+05:30  INFO 31894 --- [11_Back_End] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-07-20T21:31:50.867+05:30  INFO 31894 --- [11_Back_End] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-07-20T21:32:41.080+05:30  INFO 33374 --- [11_Back_End] [main] lk.ijse.aad.back_end.Application         : Starting Application using Java 21.0.7 with PID 33374 (/home/hansana/Documents/AAD/SPRING/Spring Framework/11_Back_End/target/classes started by hansana in /home/hansana/Documents/AAD/SPRING/Spring Framework)
-2025-07-20T21:32:41.081+05:30 DEBUG 33374 --- [11_Back_End] [main] lk.ijse.aad.back_end.Application         : Running with Spring Boot v3.5.3, Spring v6.2.8
-2025-07-20T21:32:41.081+05:30  INFO 33374 --- [11_Back_End] [main] lk.ijse.aad.back_end.Application         : No active profile set, falling back to 1 default profile: "default"
-2025-07-20T21:32:41.406+05:30  INFO 33374 --- [11_Back_End] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-07-20T21:32:41.443+05:30  INFO 33374 --- [11_Back_End] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interface.
-2025-07-20T21:32:41.698+05:30  INFO 33374 --- [11_Back_End] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-07-20T21:32:41.709+05:30  INFO 33374 --- [11_Back_End] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-07-20T21:32:41.710+05:30  INFO 33374 --- [11_Back_End] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
-2025-07-20T21:32:41.734+05:30  INFO 33374 --- [11_Back_End] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-07-20T21:32:41.735+05:30  INFO 33374 --- [11_Back_End] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 634 ms
-2025-07-20T21:32:41.819+05:30  INFO 33374 --- [11_Back_End] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-07-20T21:32:41.839+05:30  INFO 33374 --- [11_Back_End] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
-2025-07-20T21:32:41.853+05:30  INFO 33374 --- [11_Back_End] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-07-20T21:32:42.036+05:30  INFO 33374 --- [11_Back_End] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-07-20T21:32:42.057+05:30  INFO 33374 --- [11_Back_End] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-07-20T21:32:42.233+05:30  INFO 33374 --- [11_Back_End] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@28f90752
-2025-07-20T21:32:42.234+05:30  INFO 33374 --- [11_Back_End] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-07-20T21:32:42.270+05:30  WARN 33374 --- [11_Back_End] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-07-20T21:32:42.279+05:30  INFO 33374 --- [11_Back_End] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-07-21T14:25:41.114+05:30  INFO 30797 --- [11_Back_End] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-21T14:25:41.184+05:30  INFO 30797 --- [11_Back_End] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-21T14:25:41.363+05:30  INFO 30797 --- [11_Back_End] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-07-21T14:25:41.451+05:30  WARN 30797 --- [11_Back_End] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-21T14:25:41.513+05:30 DEBUG 30797 --- [11_Back_End] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 10 mappings in 'requestMappingHandlerMapping'
+2025-07-21T14:25:41.562+05:30 DEBUG 30797 --- [11_Back_End] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-07-21T14:25:41.577+05:30 DEBUG 30797 --- [11_Back_End] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-07-21T14:25:41.606+05:30 DEBUG 30797 --- [11_Back_End] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-07-21T14:25:41.704+05:30  INFO 30797 --- [11_Back_End] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-21T14:25:41.709+05:30  INFO 30797 --- [11_Back_End] [main] lk.ijse.aad.back_end.Application         : Started Application in 3.985 seconds (process running for 5.782)
+2025-07-21T14:38:33.351+05:30  INFO 30797 --- [11_Back_End] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-21T14:38:33.352+05:30  INFO 30797 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-21T14:38:33.353+05:30 DEBUG 30797 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-07-21T14:38:33.353+05:30 DEBUG 30797 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-07-21T14:38:33.353+05:30 DEBUG 30797 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-07-21T14:38:33.354+05:30 DEBUG 30797 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5318731f
+2025-07-21T14:38:33.355+05:30 DEBUG 30797 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@10b7b5f0
+2025-07-21T14:38:33.357+05:30 DEBUG 30797 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-07-21T14:38:33.357+05:30  INFO 30797 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2025-07-21T14:38:33.369+05:30 DEBUG 30797 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/auth/register", parameters={}
+2025-07-21T14:38:33.378+05:30 DEBUG 30797 --- [11_Back_End] [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-07-21T14:38:33.386+05:30 DEBUG 30797 --- [11_Back_End] [http-nio-8080-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-07-21T14:38:33.391+05:30 DEBUG 30797 --- [11_Back_End] [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler lk.ijse.aad.back_end.exceptions.GlobalExceptionHandler#handleGenericException(Exception)
+2025-07-21T14:38:33.447+05:30 DEBUG 30797 --- [11_Back_End] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-21T14:38:33.450+05:30 DEBUG 30797 --- [11_Back_End] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [lk.ijse.aad.back_end.util.APIResponse@399fb26b]
+2025-07-21T14:38:33.475+05:30 DEBUG 30797 --- [11_Back_End] [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource auth/register.]
+2025-07-21T14:38:33.476+05:30 DEBUG 30797 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2025-07-21T14:40:45.361+05:30 DEBUG 30797 --- [11_Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/auth/register", parameters={}
+2025-07-21T14:40:45.367+05:30 DEBUG 30797 --- [11_Back_End] [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-07-21T14:40:45.370+05:30 DEBUG 30797 --- [11_Back_End] [http-nio-8080-exec-3] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-07-21T14:40:45.372+05:30 DEBUG 30797 --- [11_Back_End] [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler lk.ijse.aad.back_end.exceptions.GlobalExceptionHandler#handleGenericException(Exception)
+2025-07-21T14:40:45.372+05:30 DEBUG 30797 --- [11_Back_End] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-21T14:40:45.373+05:30 DEBUG 30797 --- [11_Back_End] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [lk.ijse.aad.back_end.util.APIResponse@1803fd62]
+2025-07-21T14:40:45.373+05:30 DEBUG 30797 --- [11_Back_End] [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource auth/register.]
+2025-07-21T14:40:45.374+05:30 DEBUG 30797 --- [11_Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2025-07-21T14:41:17.237+05:30 DEBUG 30797 --- [11_Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : POST "/auth/register", parameters={}
+2025-07-21T14:41:17.238+05:30 DEBUG 30797 --- [11_Back_End] [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-07-21T14:41:17.239+05:30 DEBUG 30797 --- [11_Back_End] [http-nio-8080-exec-6] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-07-21T14:41:17.239+05:30 DEBUG 30797 --- [11_Back_End] [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler lk.ijse.aad.back_end.exceptions.GlobalExceptionHandler#handleGenericException(Exception)
+2025-07-21T14:41:17.240+05:30 DEBUG 30797 --- [11_Back_End] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-21T14:41:17.240+05:30 DEBUG 30797 --- [11_Back_End] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [lk.ijse.aad.back_end.util.APIResponse@7cd4879b]
+2025-07-21T14:41:17.241+05:30 DEBUG 30797 --- [11_Back_End] [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource auth/register.]
+2025-07-21T14:41:17.241+05:30 DEBUG 30797 --- [11_Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2025-07-21T14:41:37.576+05:30  INFO 30797 --- [11_Back_End] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-21T14:41:37.583+05:30  INFO 30797 --- [11_Back_End] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-21T14:41:37.591+05:30  INFO 30797 --- [11_Back_End] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-21T14:41:37.594+05:30  INFO 30797 --- [11_Back_End] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-21T14:41:37.610+05:30  INFO 30797 --- [11_Back_End] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-07-21T14:41:41.230+05:30  INFO 31810 --- [11_Back_End] [main] lk.ijse.aad.back_end.Application         : Starting Application using Java 21.0.7 with PID 31810 (/home/hansana/Documents/AAD/SPRING/Spring Framework/11_Back_End/target/classes started by hansana in /home/hansana/Documents/AAD/SPRING/Spring Framework)
+2025-07-21T14:41:41.231+05:30 DEBUG 31810 --- [11_Back_End] [main] lk.ijse.aad.back_end.Application         : Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-21T14:41:41.231+05:30  INFO 31810 --- [11_Back_End] [main] lk.ijse.aad.back_end.Application         : No active profile set, falling back to 1 default profile: "default"
+2025-07-21T14:41:41.667+05:30  INFO 31810 --- [11_Back_End] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-21T14:41:41.700+05:30  INFO 31810 --- [11_Back_End] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interface.
+2025-07-21T14:41:42.024+05:30  INFO 31810 --- [11_Back_End] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-21T14:41:42.033+05:30  INFO 31810 --- [11_Back_End] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-21T14:41:42.034+05:30  INFO 31810 --- [11_Back_End] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-21T14:41:42.066+05:30  INFO 31810 --- [11_Back_End] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-21T14:41:42.067+05:30  INFO 31810 --- [11_Back_End] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 815 ms
+2025-07-21T14:41:42.191+05:30  INFO 31810 --- [11_Back_End] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-21T14:41:42.225+05:30  INFO 31810 --- [11_Back_End] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-21T14:41:42.260+05:30  INFO 31810 --- [11_Back_End] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-07-21T14:41:42.438+05:30  INFO 31810 --- [11_Back_End] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-21T14:41:42.465+05:30  INFO 31810 --- [11_Back_End] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-21T14:41:43.153+05:30  INFO 31810 --- [11_Back_End] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3a72e2e8
+2025-07-21T14:41:43.158+05:30  INFO 31810 --- [11_Back_End] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-21T14:41:43.206+05:30  WARN 31810 --- [11_Back_End] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-21T14:41:43.216+05:30  INFO 31810 --- [11_Back_End] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 8.0.42
@@ -352,453 +98,59 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-07-20T21:32:42.703+05:30  INFO 33374 --- [11_Back_End] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-07-20T21:32:42.734+05:30  INFO 33374 --- [11_Back_End] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-07-20T21:32:42.851+05:30  INFO 33374 --- [11_Back_End] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-07-20T21:32:42.911+05:30  WARN 33374 --- [11_Back_End] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-07-20T21:32:42.961+05:30 DEBUG 33374 --- [11_Back_End] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 10 mappings in 'requestMappingHandlerMapping'
-2025-07-20T21:32:42.998+05:30 DEBUG 33374 --- [11_Back_End] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2025-07-20T21:32:43.012+05:30 DEBUG 33374 --- [11_Back_End] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
-2025-07-20T21:32:43.037+05:30 DEBUG 33374 --- [11_Back_End] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
-2025-07-20T21:32:43.098+05:30  INFO 33374 --- [11_Back_End] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2025-07-20T21:32:43.103+05:30  INFO 33374 --- [11_Back_End] [main] lk.ijse.aad.back_end.Application         : Started Application in 2.259 seconds (process running for 2.744)
-2025-07-20T21:32:45.498+05:30  INFO 33374 --- [11_Back_End] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-07-20T21:32:45.498+05:30  INFO 33374 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-07-20T21:32:45.498+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
-2025-07-20T21:32:45.498+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
-2025-07-20T21:32:45.499+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
-2025-07-20T21:32:45.499+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1196537d
-2025-07-20T21:32:45.499+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@255b84a9
-2025-07-20T21:32:45.500+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
-2025-07-20T21:32:45.500+05:30  INFO 33374 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2025-07-20T21:32:45.504+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=0&size=10", parameters={masked}
-2025-07-20T21:32:45.510+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:32:45.670+05:30  WARN 33374 --- [11_Back_End] [http-nio-8080-exec-1] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
-	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
-	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
-
-2025-07-20T21:32:45.682+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:32:45.683+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 1 of 2 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:32:45.709+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:32:56.796+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : OPTIONS "/api/v1/job/create", parameters={}
-2025-07-20T21:32:56.797+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#createJob(JobDTO)
-2025-07-20T21:32:56.800+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:32:56.807+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/api/v1/job/create", parameters={}
-2025-07-20T21:32:56.808+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#createJob(JobDTO)
-2025-07-20T21:32:56.845+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [lk.ijse.aad.back_end.dto.JobDTO@74b12441]
-2025-07-20T21:32:56.864+05:30  INFO 33374 --- [11_Back_End] [http-nio-8080-exec-3] l.i.a.back_end.controller.JobController  : Job Created Successfully
-2025-07-20T21:32:56.864+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-3] l.i.a.back_end.controller.JobController  : Job Details : lk.ijse.aad.back_end.dto.JobDTO@74b12441 
-2025-07-20T21:32:56.864+05:30 ERROR 33374 --- [11_Back_End] [http-nio-8080-exec-3] l.i.a.back_end.controller.JobController  : Job Creation Error
-2025-07-20T21:32:56.864+05:30  WARN 33374 --- [11_Back_End] [http-nio-8080-exec-3] l.i.a.back_end.controller.JobController  : Job Creation Warning
-2025-07-20T21:32:56.897+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:32:56.897+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [lk.ijse.aad.back_end.util.APIResponse@fd35ccd]
-2025-07-20T21:32:56.898+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
-2025-07-20T21:32:56.901+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=0&size=10", parameters={masked}
-2025-07-20T21:32:56.902+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:32:56.914+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:32:56.914+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 1 of 2 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:32:56.915+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:33:00.784+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=1&size=10", parameters={masked}
-2025-07-20T21:33:00.785+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:33:00.801+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:33:00.801+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 2 of 2 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:33:00.802+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:33:07.433+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : OPTIONS "/api/v1/job/update", parameters={}
-2025-07-20T21:33:07.433+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#updateJob(JobDTO)
-2025-07-20T21:33:07.435+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:33:07.440+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : PUT "/api/v1/job/update", parameters={}
-2025-07-20T21:33:07.440+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#updateJob(JobDTO)
-2025-07-20T21:33:07.445+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [lk.ijse.aad.back_end.dto.JobDTO@11b20e84]
-2025-07-20T21:33:07.483+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:33:07.483+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [lk.ijse.aad.back_end.util.APIResponse@37c2c03b]
-2025-07-20T21:33:07.484+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:33:07.491+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=1&size=10", parameters={masked}
-2025-07-20T21:33:07.492+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:33:07.500+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:33:07.500+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 2 of 2 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:33:07.502+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:33:15.912+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : OPTIONS "/api/v1/job/changestatus/18", parameters={}
-2025-07-20T21:33:15.913+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#changeJobStatus(String)
-2025-07-20T21:33:15.914+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:33:15.920+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : PATCH "/api/v1/job/changestatus/18", parameters={}
-2025-07-20T21:33:15.921+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#changeJobStatus(String)
-2025-07-20T21:33:15.952+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:33:15.952+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [lk.ijse.aad.back_end.util.APIResponse@2983456b]
-2025-07-20T21:33:15.954+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:33:15.959+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=1&size=10", parameters={masked}
-2025-07-20T21:33:15.959+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:33:15.966+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:33:15.966+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 2 of 2 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:33:15.967+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:33:22.922+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : OPTIONS "/api/v1/job/delete/18", parameters={}
-2025-07-20T21:33:22.923+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#deleteJob(String)
-2025-07-20T21:33:22.924+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:33:22.928+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : DELETE "/api/v1/job/delete/18", parameters={}
-2025-07-20T21:33:22.929+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#deleteJob(String)
-2025-07-20T21:33:22.954+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:33:22.955+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [lk.ijse.aad.back_end.util.APIResponse@1a2e9045]
-2025-07-20T21:33:22.956+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:33:22.963+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=1&size=10", parameters={masked}
-2025-07-20T21:33:22.964+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:33:22.974+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:33:22.975+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 2 of 2 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:33:22.976+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:33:29.280+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=0&size=10", parameters={masked}
-2025-07-20T21:33:29.281+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:33:29.299+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:33:29.299+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 1 of 2 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:33:29.300+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:34:58.514+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : POST "/api/v1/job/create", parameters={}
-2025-07-20T21:34:58.515+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#createJob(JobDTO)
-2025-07-20T21:34:58.517+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [lk.ijse.aad.back_end.dto.JobDTO@26d01ba9]
-2025-07-20T21:34:58.518+05:30  INFO 33374 --- [11_Back_End] [http-nio-8080-exec-7] l.i.a.back_end.controller.JobController  : Job Created Successfully
-2025-07-20T21:34:58.518+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-7] l.i.a.back_end.controller.JobController  : Job Details : lk.ijse.aad.back_end.dto.JobDTO@26d01ba9 
-2025-07-20T21:34:58.518+05:30 ERROR 33374 --- [11_Back_End] [http-nio-8080-exec-7] l.i.a.back_end.controller.JobController  : Job Creation Error
-2025-07-20T21:34:58.518+05:30  WARN 33374 --- [11_Back_End] [http-nio-8080-exec-7] l.i.a.back_end.controller.JobController  : Job Creation Warning
-2025-07-20T21:34:58.537+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:34:58.538+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [lk.ijse.aad.back_end.util.APIResponse@4a7bead9]
-2025-07-20T21:34:58.540+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
-2025-07-20T21:34:58.548+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=0&size=10", parameters={masked}
-2025-07-20T21:34:58.549+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:34:58.562+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:34:58.562+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 1 of 2 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:34:58.563+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:35:41.391+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : POST "/api/v1/job/create", parameters={}
-2025-07-20T21:35:41.392+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#createJob(JobDTO)
-2025-07-20T21:35:41.394+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [lk.ijse.aad.back_end.dto.JobDTO@4f021125]
-2025-07-20T21:35:41.395+05:30  INFO 33374 --- [11_Back_End] [http-nio-8080-exec-9] l.i.a.back_end.controller.JobController  : Job Created Successfully
-2025-07-20T21:35:41.395+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-9] l.i.a.back_end.controller.JobController  : Job Details : lk.ijse.aad.back_end.dto.JobDTO@4f021125 
-2025-07-20T21:35:41.395+05:30 ERROR 33374 --- [11_Back_End] [http-nio-8080-exec-9] l.i.a.back_end.controller.JobController  : Job Creation Error
-2025-07-20T21:35:41.395+05:30  WARN 33374 --- [11_Back_End] [http-nio-8080-exec-9] l.i.a.back_end.controller.JobController  : Job Creation Warning
-2025-07-20T21:35:41.411+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:35:41.411+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [lk.ijse.aad.back_end.util.APIResponse@7edf4f]
-2025-07-20T21:35:41.412+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
-2025-07-20T21:35:41.417+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=0&size=10", parameters={masked}
-2025-07-20T21:35:41.418+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:35:41.431+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:35:41.431+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 1 of 2 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:35:41.432+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:36:13.502+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/api/v1/job/create", parameters={}
-2025-07-20T21:36:13.503+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#createJob(JobDTO)
-2025-07-20T21:36:13.504+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [lk.ijse.aad.back_end.dto.JobDTO@3218e9c6]
-2025-07-20T21:36:13.505+05:30  INFO 33374 --- [11_Back_End] [http-nio-8080-exec-1] l.i.a.back_end.controller.JobController  : Job Created Successfully
-2025-07-20T21:36:13.505+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-1] l.i.a.back_end.controller.JobController  : Job Details : lk.ijse.aad.back_end.dto.JobDTO@3218e9c6 
-2025-07-20T21:36:13.505+05:30 ERROR 33374 --- [11_Back_End] [http-nio-8080-exec-1] l.i.a.back_end.controller.JobController  : Job Creation Error
-2025-07-20T21:36:13.505+05:30  WARN 33374 --- [11_Back_End] [http-nio-8080-exec-1] l.i.a.back_end.controller.JobController  : Job Creation Warning
-2025-07-20T21:36:13.522+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:36:13.522+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [lk.ijse.aad.back_end.util.APIResponse@7f5cce26]
-2025-07-20T21:36:13.524+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
-2025-07-20T21:36:13.532+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=0&size=10", parameters={masked}
-2025-07-20T21:36:13.533+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:36:13.545+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:36:13.545+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 1 of 2 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:36:13.548+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:36:29.300+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=1&size=10", parameters={masked}
-2025-07-20T21:36:29.301+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:36:29.308+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:36:29.309+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 2 of 2 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:36:29.310+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:36:34.118+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=0&size=10", parameters={masked}
-2025-07-20T21:36:34.119+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:36:34.137+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:36:34.138+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 1 of 2 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:36:34.139+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:36:56.878+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : POST "/api/v1/job/create", parameters={}
-2025-07-20T21:36:56.878+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#createJob(JobDTO)
-2025-07-20T21:36:56.879+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [lk.ijse.aad.back_end.dto.JobDTO@3179fa79]
-2025-07-20T21:36:56.880+05:30  INFO 33374 --- [11_Back_End] [http-nio-8080-exec-5] l.i.a.back_end.controller.JobController  : Job Created Successfully
-2025-07-20T21:36:56.880+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-5] l.i.a.back_end.controller.JobController  : Job Details : lk.ijse.aad.back_end.dto.JobDTO@3179fa79 
-2025-07-20T21:36:56.880+05:30 ERROR 33374 --- [11_Back_End] [http-nio-8080-exec-5] l.i.a.back_end.controller.JobController  : Job Creation Error
-2025-07-20T21:36:56.880+05:30  WARN 33374 --- [11_Back_End] [http-nio-8080-exec-5] l.i.a.back_end.controller.JobController  : Job Creation Warning
-2025-07-20T21:36:56.898+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:36:56.899+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [lk.ijse.aad.back_end.util.APIResponse@bdc303a]
-2025-07-20T21:36:56.899+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
-2025-07-20T21:36:56.903+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=0&size=10", parameters={masked}
-2025-07-20T21:36:56.904+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:36:56.912+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:36:56.912+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 1 of 2 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:36:56.913+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:38:06.718+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : POST "/api/v1/job/create", parameters={}
-2025-07-20T21:38:06.719+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#createJob(JobDTO)
-2025-07-20T21:38:06.720+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [lk.ijse.aad.back_end.dto.JobDTO@5958023a]
-2025-07-20T21:38:06.721+05:30  INFO 33374 --- [11_Back_End] [http-nio-8080-exec-8] l.i.a.back_end.controller.JobController  : Job Created Successfully
-2025-07-20T21:38:06.721+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-8] l.i.a.back_end.controller.JobController  : Job Details : lk.ijse.aad.back_end.dto.JobDTO@5958023a 
-2025-07-20T21:38:06.721+05:30 ERROR 33374 --- [11_Back_End] [http-nio-8080-exec-8] l.i.a.back_end.controller.JobController  : Job Creation Error
-2025-07-20T21:38:06.721+05:30  WARN 33374 --- [11_Back_End] [http-nio-8080-exec-8] l.i.a.back_end.controller.JobController  : Job Creation Warning
-2025-07-20T21:38:06.735+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:38:06.735+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [lk.ijse.aad.back_end.util.APIResponse@13e90fcc]
-2025-07-20T21:38:06.736+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
-2025-07-20T21:38:06.744+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=0&size=10", parameters={masked}
-2025-07-20T21:38:06.744+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:38:06.759+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:38:06.759+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 1 of 2 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:38:06.761+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:38:10.680+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=1&size=10", parameters={masked}
-2025-07-20T21:38:10.681+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:38:10.691+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:38:10.692+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 2 of 2 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:38:10.693+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:38:20.962+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : PUT "/api/v1/job/update", parameters={}
-2025-07-20T21:38:20.963+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#updateJob(JobDTO)
-2025-07-20T21:38:20.964+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [lk.ijse.aad.back_end.dto.JobDTO@15e35bbb]
-2025-07-20T21:38:20.980+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:38:20.981+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [lk.ijse.aad.back_end.util.APIResponse@70b5a9a6]
-2025-07-20T21:38:20.982+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:38:20.989+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=1&size=10", parameters={masked}
-2025-07-20T21:38:20.990+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:38:21.001+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:38:21.002+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 2 of 2 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:38:21.004+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:38:27.331+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : OPTIONS "/api/v1/job/changestatus/20", parameters={}
-2025-07-20T21:38:27.331+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#changeJobStatus(String)
-2025-07-20T21:38:27.331+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:38:27.335+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : PATCH "/api/v1/job/changestatus/20", parameters={}
-2025-07-20T21:38:27.336+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#changeJobStatus(String)
-2025-07-20T21:38:27.354+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:38:27.354+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [lk.ijse.aad.back_end.util.APIResponse@6ee688b4]
-2025-07-20T21:38:27.355+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:38:27.363+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=1&size=10", parameters={masked}
-2025-07-20T21:38:27.364+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:38:27.376+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:38:27.377+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 2 of 2 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:38:27.378+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:38:58.955+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : POST "/api/v1/job/create", parameters={}
-2025-07-20T21:38:58.956+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#createJob(JobDTO)
-2025-07-20T21:38:58.957+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [lk.ijse.aad.back_end.dto.JobDTO@bc74510]
-2025-07-20T21:38:58.957+05:30  INFO 33374 --- [11_Back_End] [http-nio-8080-exec-6] l.i.a.back_end.controller.JobController  : Job Created Successfully
-2025-07-20T21:38:58.958+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-6] l.i.a.back_end.controller.JobController  : Job Details : lk.ijse.aad.back_end.dto.JobDTO@bc74510 
-2025-07-20T21:38:58.958+05:30 ERROR 33374 --- [11_Back_End] [http-nio-8080-exec-6] l.i.a.back_end.controller.JobController  : Job Creation Error
-2025-07-20T21:38:58.958+05:30  WARN 33374 --- [11_Back_End] [http-nio-8080-exec-6] l.i.a.back_end.controller.JobController  : Job Creation Warning
-2025-07-20T21:38:58.972+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:38:58.972+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [lk.ijse.aad.back_end.util.APIResponse@58d377c4]
-2025-07-20T21:38:58.974+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
-2025-07-20T21:38:58.980+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=0&size=10", parameters={masked}
-2025-07-20T21:38:58.981+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:38:58.994+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:38:58.994+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 1 of 2 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:38:58.995+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:39:38.171+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : POST "/api/v1/job/create", parameters={}
-2025-07-20T21:39:38.172+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#createJob(JobDTO)
-2025-07-20T21:39:38.172+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [lk.ijse.aad.back_end.dto.JobDTO@5d2859ee]
-2025-07-20T21:39:38.173+05:30  INFO 33374 --- [11_Back_End] [http-nio-8080-exec-8] l.i.a.back_end.controller.JobController  : Job Created Successfully
-2025-07-20T21:39:38.173+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-8] l.i.a.back_end.controller.JobController  : Job Details : lk.ijse.aad.back_end.dto.JobDTO@5d2859ee 
-2025-07-20T21:39:38.173+05:30 ERROR 33374 --- [11_Back_End] [http-nio-8080-exec-8] l.i.a.back_end.controller.JobController  : Job Creation Error
-2025-07-20T21:39:38.173+05:30  WARN 33374 --- [11_Back_End] [http-nio-8080-exec-8] l.i.a.back_end.controller.JobController  : Job Creation Warning
-2025-07-20T21:39:38.185+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:39:38.186+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [lk.ijse.aad.back_end.util.APIResponse@1216be5b]
-2025-07-20T21:39:38.187+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
-2025-07-20T21:39:38.193+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=0&size=10", parameters={masked}
-2025-07-20T21:39:38.193+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:39:38.206+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:39:38.206+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 1 of 2 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:39:38.208+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:39:40.425+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=1&size=10", parameters={masked}
-2025-07-20T21:39:40.426+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:39:40.444+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:39:40.444+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 2 of 2 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:39:40.445+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:40:10.248+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/api/v1/job/create", parameters={}
-2025-07-20T21:40:10.249+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#createJob(JobDTO)
-2025-07-20T21:40:10.250+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [lk.ijse.aad.back_end.dto.JobDTO@1596b1f6]
-2025-07-20T21:40:10.251+05:30  INFO 33374 --- [11_Back_End] [http-nio-8080-exec-1] l.i.a.back_end.controller.JobController  : Job Created Successfully
-2025-07-20T21:40:10.251+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-1] l.i.a.back_end.controller.JobController  : Job Details : lk.ijse.aad.back_end.dto.JobDTO@1596b1f6 
-2025-07-20T21:40:10.251+05:30 ERROR 33374 --- [11_Back_End] [http-nio-8080-exec-1] l.i.a.back_end.controller.JobController  : Job Creation Error
-2025-07-20T21:40:10.251+05:30  WARN 33374 --- [11_Back_End] [http-nio-8080-exec-1] l.i.a.back_end.controller.JobController  : Job Creation Warning
-2025-07-20T21:40:10.267+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:40:10.268+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [lk.ijse.aad.back_end.util.APIResponse@9db4640]
-2025-07-20T21:40:10.270+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
-2025-07-20T21:40:10.278+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=0&size=10", parameters={masked}
-2025-07-20T21:40:10.278+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:40:10.294+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:40:10.294+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 1 of 3 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:40:10.295+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:40:13.686+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=1&size=10", parameters={masked}
-2025-07-20T21:40:13.687+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:40:13.702+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:40:13.702+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 2 of 3 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:40:13.703+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:40:15.073+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=2&size=10", parameters={masked}
-2025-07-20T21:40:15.074+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:40:15.080+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:40:15.080+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 3 of 3 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:40:15.081+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:40:26.936+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=1&size=10", parameters={masked}
-2025-07-20T21:40:26.937+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:40:26.951+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:40:26.951+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 2 of 3 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:40:26.952+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:40:34.320+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : OPTIONS "/api/v1/job/delete/16", parameters={}
-2025-07-20T21:40:34.320+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#deleteJob(String)
-2025-07-20T21:40:34.321+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:40:34.326+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : DELETE "/api/v1/job/delete/16", parameters={}
-2025-07-20T21:40:34.326+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#deleteJob(String)
-2025-07-20T21:40:34.345+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:40:34.345+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [lk.ijse.aad.back_end.util.APIResponse@1242e40a]
-2025-07-20T21:40:34.347+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:40:34.352+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=1&size=10", parameters={masked}
-2025-07-20T21:40:34.352+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:40:34.366+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:40:34.366+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 2 of 2 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:40:34.367+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:40:39.178+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : OPTIONS "/api/v1/job/changestatus/24", parameters={}
-2025-07-20T21:40:39.178+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#changeJobStatus(String)
-2025-07-20T21:40:39.179+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:40:39.184+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : PATCH "/api/v1/job/changestatus/24", parameters={}
-2025-07-20T21:40:39.185+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#changeJobStatus(String)
-2025-07-20T21:40:39.200+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:40:39.200+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [lk.ijse.aad.back_end.util.APIResponse@74560899]
-2025-07-20T21:40:39.201+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:40:39.207+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=1&size=10", parameters={masked}
-2025-07-20T21:40:39.207+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:40:39.220+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:40:39.221+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 2 of 2 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:40:39.222+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:40:41.566+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=0&size=10", parameters={masked}
-2025-07-20T21:40:41.567+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:40:41.588+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:40:41.588+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 1 of 2 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:40:41.590+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:40:46.106+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : OPTIONS "/api/v1/job/changestatus/5", parameters={}
-2025-07-20T21:40:46.107+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#changeJobStatus(String)
-2025-07-20T21:40:46.107+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:40:46.112+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : PATCH "/api/v1/job/changestatus/5", parameters={}
-2025-07-20T21:40:46.113+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#changeJobStatus(String)
-2025-07-20T21:40:46.116+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:40:46.117+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [lk.ijse.aad.back_end.util.APIResponse@1fad4dc5]
-2025-07-20T21:40:46.117+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:40:46.123+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=0&size=10", parameters={masked}
-2025-07-20T21:40:46.123+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:40:46.135+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:40:46.135+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 1 of 2 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:40:46.135+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:40:50.630+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : OPTIONS "/api/v1/job/changestatus/4", parameters={}
-2025-07-20T21:40:50.630+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#changeJobStatus(String)
-2025-07-20T21:40:50.631+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:40:50.638+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : PATCH "/api/v1/job/changestatus/4", parameters={}
-2025-07-20T21:40:50.638+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#changeJobStatus(String)
-2025-07-20T21:40:50.646+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:40:50.646+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-7] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [lk.ijse.aad.back_end.util.APIResponse@664e83a6]
-2025-07-20T21:40:50.647+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:40:50.652+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=0&size=10", parameters={masked}
-2025-07-20T21:40:50.652+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:40:50.669+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:40:50.669+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 1 of 2 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:40:50.670+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:42:12.404+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : POST "/api/v1/job/create", parameters={}
-2025-07-20T21:42:12.404+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#createJob(JobDTO)
-2025-07-20T21:42:12.406+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [lk.ijse.aad.back_end.dto.JobDTO@27647ae1]
-2025-07-20T21:42:12.407+05:30  INFO 33374 --- [11_Back_End] [http-nio-8080-exec-10] l.i.a.back_end.controller.JobController  : Job Created Successfully
-2025-07-20T21:42:12.407+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-10] l.i.a.back_end.controller.JobController  : Job Details : lk.ijse.aad.back_end.dto.JobDTO@27647ae1 
-2025-07-20T21:42:12.407+05:30 ERROR 33374 --- [11_Back_End] [http-nio-8080-exec-10] l.i.a.back_end.controller.JobController  : Job Creation Error
-2025-07-20T21:42:12.407+05:30  WARN 33374 --- [11_Back_End] [http-nio-8080-exec-10] l.i.a.back_end.controller.JobController  : Job Creation Warning
-2025-07-20T21:42:12.425+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:42:12.426+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-10] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [lk.ijse.aad.back_end.util.APIResponse@3675599f]
-2025-07-20T21:42:12.427+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
-2025-07-20T21:42:12.434+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=0&size=10", parameters={masked}
-2025-07-20T21:42:12.434+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:42:12.448+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:42:12.448+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 1 of 3 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:42:12.449+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:42:14.296+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=2&size=10", parameters={masked}
-2025-07-20T21:42:14.297+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:42:14.306+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:42:14.306+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 3 of 3 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:42:14.308+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:43:02.914+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/api/v1/job/create", parameters={}
-2025-07-20T21:43:02.915+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#createJob(JobDTO)
-2025-07-20T21:43:02.917+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [lk.ijse.aad.back_end.dto.JobDTO@5e64ce36]
-2025-07-20T21:43:02.917+05:30  INFO 33374 --- [11_Back_End] [http-nio-8080-exec-3] l.i.a.back_end.controller.JobController  : Job Created Successfully
-2025-07-20T21:43:02.917+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-3] l.i.a.back_end.controller.JobController  : Job Details : lk.ijse.aad.back_end.dto.JobDTO@5e64ce36 
-2025-07-20T21:43:02.917+05:30 ERROR 33374 --- [11_Back_End] [http-nio-8080-exec-3] l.i.a.back_end.controller.JobController  : Job Creation Error
-2025-07-20T21:43:02.917+05:30  WARN 33374 --- [11_Back_End] [http-nio-8080-exec-3] l.i.a.back_end.controller.JobController  : Job Creation Warning
-2025-07-20T21:43:02.932+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:43:02.933+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [lk.ijse.aad.back_end.util.APIResponse@3b22ad3]
-2025-07-20T21:43:02.935+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
-2025-07-20T21:43:02.941+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=0&size=10", parameters={masked}
-2025-07-20T21:43:02.942+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:43:02.958+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:43:02.959+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 1 of 3 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:43:02.961+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:43:33.609+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : POST "/api/v1/job/create", parameters={}
-2025-07-20T21:43:33.610+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#createJob(JobDTO)
-2025-07-20T21:43:33.611+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [lk.ijse.aad.back_end.dto.JobDTO@2010fb48]
-2025-07-20T21:43:33.612+05:30  INFO 33374 --- [11_Back_End] [http-nio-8080-exec-5] l.i.a.back_end.controller.JobController  : Job Created Successfully
-2025-07-20T21:43:33.612+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-5] l.i.a.back_end.controller.JobController  : Job Details : lk.ijse.aad.back_end.dto.JobDTO@2010fb48 
-2025-07-20T21:43:33.612+05:30 ERROR 33374 --- [11_Back_End] [http-nio-8080-exec-5] l.i.a.back_end.controller.JobController  : Job Creation Error
-2025-07-20T21:43:33.612+05:30  WARN 33374 --- [11_Back_End] [http-nio-8080-exec-5] l.i.a.back_end.controller.JobController  : Job Creation Warning
-2025-07-20T21:43:33.624+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:43:33.625+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [lk.ijse.aad.back_end.util.APIResponse@10f48de5]
-2025-07-20T21:43:33.626+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 201 CREATED
-2025-07-20T21:43:33.634+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=0&size=10", parameters={masked}
-2025-07-20T21:43:33.634+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:43:33.661+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:43:33.662+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 1 of 3 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:43:33.664+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:43:36.163+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=1&size=10", parameters={masked}
-2025-07-20T21:43:36.164+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:43:36.178+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:43:36.178+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 2 of 3 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:43:36.180+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:43:37.739+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=2&size=10", parameters={masked}
-2025-07-20T21:43:37.739+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:43:37.747+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:43:37.748+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 3 of 3 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:43:37.749+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:43:39.247+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=1&size=10", parameters={masked}
-2025-07-20T21:43:39.247+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:43:39.255+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:43:39.255+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 2 of 3 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:43:39.256+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:43:42.039+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=0&size=10", parameters={masked}
-2025-07-20T21:43:42.039+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:43:42.050+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:43:42.051+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 1 of 3 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:43:42.052+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:43:44.059+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=1&size=10", parameters={masked}
-2025-07-20T21:43:44.059+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:43:44.075+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:43:44.076+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 2 of 3 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:43:44.076+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:43:45.989+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=2&size=10", parameters={masked}
-2025-07-20T21:43:45.989+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:43:45.995+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:43:45.995+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 3 of 3 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:43:45.996+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:43:53.505+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : OPTIONS "/api/v1/job/changestatus/28", parameters={}
-2025-07-20T21:43:53.505+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#changeJobStatus(String)
-2025-07-20T21:43:53.506+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:43:53.510+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : PATCH "/api/v1/job/changestatus/28", parameters={}
-2025-07-20T21:43:53.511+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#changeJobStatus(String)
-2025-07-20T21:43:53.521+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:43:53.522+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [lk.ijse.aad.back_end.util.APIResponse@75ddf21d]
-2025-07-20T21:43:53.523+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:43:53.529+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=2&size=10", parameters={masked}
-2025-07-20T21:43:53.529+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:43:53.534+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:43:53.534+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 3 of 3 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:43:53.535+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:43:55.947+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=1&size=10", parameters={masked}
-2025-07-20T21:43:55.947+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:43:55.969+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:43:55.970+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 2 of 3 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:43:55.970+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:43:58.872+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=0&size=10", parameters={masked}
-2025-07-20T21:43:58.872+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:43:58.889+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:43:58.889+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 1 of 3 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:43:58.890+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:44:00.283+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=1&size=10", parameters={masked}
-2025-07-20T21:44:00.283+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:44:00.297+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:44:00.297+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 2 of 3 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:44:00.298+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:44:00.941+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/api/v1/job/getall/paginated?page=2&size=10", parameters={masked}
-2025-07-20T21:44:00.942+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to lk.ijse.aad.back_end.controller.JobController#getAllJobsPaginated(int, int)
-2025-07-20T21:44:00.954+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
-2025-07-20T21:44:00.954+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [Page 3 of 3 containing lk.ijse.aad.back_end.dto.JobDTO instances]
-2025-07-20T21:44:00.956+05:30 DEBUG 33374 --- [11_Back_End] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
-2025-07-20T21:44:10.103+05:30  INFO 33374 --- [11_Back_End] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-07-20T21:44:10.106+05:30  INFO 33374 --- [11_Back_End] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-07-20T21:44:10.112+05:30  INFO 33374 --- [11_Back_End] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-07-20T21:44:10.115+05:30  INFO 33374 --- [11_Back_End] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-07-20T21:44:10.122+05:30  INFO 33374 --- [11_Back_End] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-07-21T14:41:43.738+05:30  INFO 31810 --- [11_Back_End] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-21T14:41:43.765+05:30  INFO 31810 --- [11_Back_End] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-21T14:41:43.946+05:30  INFO 31810 --- [11_Back_End] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-07-21T14:41:43.988+05:30  WARN 31810 --- [11_Back_End] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-21T14:41:44.048+05:30 DEBUG 31810 --- [11_Back_End] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 10 mappings in 'requestMappingHandlerMapping'
+2025-07-21T14:41:44.096+05:30 DEBUG 31810 --- [11_Back_End] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-07-21T14:41:44.110+05:30 DEBUG 31810 --- [11_Back_End] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-07-21T14:41:44.148+05:30 DEBUG 31810 --- [11_Back_End] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-07-21T14:41:44.253+05:30  INFO 31810 --- [11_Back_End] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-21T14:41:44.259+05:30  INFO 31810 --- [11_Back_End] [main] lk.ijse.aad.back_end.Application         : Started Application in 3.376 seconds (process running for 4.848)
+2025-07-21T14:41:51.271+05:30  INFO 31810 --- [11_Back_End] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-21T14:41:51.271+05:30  INFO 31810 --- [11_Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-21T14:41:51.271+05:30 DEBUG 31810 --- [11_Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-07-21T14:41:51.271+05:30 DEBUG 31810 --- [11_Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-07-21T14:41:51.271+05:30 DEBUG 31810 --- [11_Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-07-21T14:41:51.272+05:30 DEBUG 31810 --- [11_Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@26723525
+2025-07-21T14:41:51.272+05:30 DEBUG 31810 --- [11_Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@5dc8448b
+2025-07-21T14:41:51.272+05:30 DEBUG 31810 --- [11_Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-07-21T14:41:51.272+05:30  INFO 31810 --- [11_Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-07-21T14:41:51.277+05:30 DEBUG 31810 --- [11_Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/auth/register", parameters={}
+2025-07-21T14:41:51.283+05:30 DEBUG 31810 --- [11_Back_End] [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-07-21T14:41:51.289+05:30 DEBUG 31810 --- [11_Back_End] [http-nio-8080-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-07-21T14:41:51.293+05:30 DEBUG 31810 --- [11_Back_End] [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler lk.ijse.aad.back_end.exceptions.GlobalExceptionHandler#handleGenericException(Exception)
+2025-07-21T14:41:51.334+05:30 DEBUG 31810 --- [11_Back_End] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-21T14:41:51.338+05:30 DEBUG 31810 --- [11_Back_End] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [lk.ijse.aad.back_end.util.APIResponse@29a82a27]
+2025-07-21T14:41:51.352+05:30 DEBUG 31810 --- [11_Back_End] [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource auth/register.]
+2025-07-21T14:41:51.352+05:30 DEBUG 31810 --- [11_Back_End] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2025-07-21T14:43:42.049+05:30 DEBUG 31810 --- [11_Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/auth/register", parameters={}
+2025-07-21T14:43:42.050+05:30 DEBUG 31810 --- [11_Back_End] [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-07-21T14:43:42.056+05:30 DEBUG 31810 --- [11_Back_End] [http-nio-8080-exec-4] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-07-21T14:43:42.058+05:30 DEBUG 31810 --- [11_Back_End] [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler lk.ijse.aad.back_end.exceptions.GlobalExceptionHandler#handleGenericException(Exception)
+2025-07-21T14:43:42.059+05:30 DEBUG 31810 --- [11_Back_End] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-21T14:43:42.059+05:30 DEBUG 31810 --- [11_Back_End] [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [lk.ijse.aad.back_end.util.APIResponse@735ae90f]
+2025-07-21T14:43:42.060+05:30 DEBUG 31810 --- [11_Back_End] [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource auth/register.]
+2025-07-21T14:43:42.061+05:30 DEBUG 31810 --- [11_Back_End] [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2025-07-21T14:43:51.149+05:30 DEBUG 31810 --- [11_Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : POST "/auth/register", parameters={}
+2025-07-21T14:43:51.150+05:30 DEBUG 31810 --- [11_Back_End] [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-07-21T14:43:51.150+05:30 DEBUG 31810 --- [11_Back_End] [http-nio-8080-exec-6] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-07-21T14:43:51.150+05:30 DEBUG 31810 --- [11_Back_End] [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler lk.ijse.aad.back_end.exceptions.GlobalExceptionHandler#handleGenericException(Exception)
+2025-07-21T14:43:51.151+05:30 DEBUG 31810 --- [11_Back_End] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-21T14:43:51.151+05:30 DEBUG 31810 --- [11_Back_End] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [lk.ijse.aad.back_end.util.APIResponse@25771750]
+2025-07-21T14:43:51.151+05:30 DEBUG 31810 --- [11_Back_End] [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource auth/register.]
+2025-07-21T14:43:51.152+05:30 DEBUG 31810 --- [11_Back_End] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2025-07-21T14:46:11.833+05:30 DEBUG 31810 --- [11_Back_End] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : POST "/auth/register", parameters={}
+2025-07-21T14:46:11.834+05:30 DEBUG 31810 --- [11_Back_End] [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2025-07-21T14:46:11.835+05:30 DEBUG 31810 --- [11_Back_End] [http-nio-8080-exec-8] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-07-21T14:46:11.836+05:30 DEBUG 31810 --- [11_Back_End] [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Using @ExceptionHandler lk.ijse.aad.back_end.exceptions.GlobalExceptionHandler#handleGenericException(Exception)
+2025-07-21T14:46:11.836+05:30 DEBUG 31810 --- [11_Back_End] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2025-07-21T14:46:11.836+05:30 DEBUG 31810 --- [11_Back_End] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [lk.ijse.aad.back_end.util.APIResponse@48edb97a]
+2025-07-21T14:46:11.837+05:30 DEBUG 31810 --- [11_Back_End] [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource auth/register.]
+2025-07-21T14:46:11.837+05:30 DEBUG 31810 --- [11_Back_End] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 500 INTERNAL_SERVER_ERROR
+2025-07-21T14:53:46.680+05:30  INFO 31810 --- [11_Back_End] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-21T14:53:46.714+05:30  INFO 31810 --- [11_Back_End] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-21T14:53:46.736+05:30  INFO 31810 --- [11_Back_End] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-21T14:53:46.748+05:30  INFO 31810 --- [11_Back_End] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-21T14:53:46.766+05:30  INFO 31810 --- [11_Back_End] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
