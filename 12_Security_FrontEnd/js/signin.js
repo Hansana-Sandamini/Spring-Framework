@@ -1,28 +1,3 @@
-// $('#sign-in-btn').on('click', function() {
-//     var username = $('#username').val();
-//     var password = $('#password').val();
-//
-//     $.ajax({
-//         method: 'POST',
-//         url: '/12_Security_FrontEnd/signin',
-//         contentType: 'application/json',
-//         data: JSON.stringify({
-//             username: username,
-//             password: password
-//         }),
-//         success: function(response) {
-//             if(response.code === '200') {
-//                 localStorage.setItem('email', email);
-//                 alert('Sign In Successfull!');
-//                 window.location.href = 'dashboard.html';
-//             } else {
-//                 alert('Error: ' +response.message);
-//             }
-//         }
-//     })
-// })
-
-
 $('#sign-in-btn').on('click', function() {
     const username = $('#username').val();
     const password = $('#password').val();
