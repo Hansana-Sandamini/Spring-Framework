@@ -9,13 +9,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/hello")
 public class HelloController {
 
-    @GetMapping
+    @GetMapping("/admin")
     @PreAuthorize("hasRole('ADMIN')")
     public String helloAdmin(){
         return "Hello Admin";
     }
 
-    @GetMapping
+    @GetMapping("/user")
     @PreAuthorize("hasRole('USER')")
     public String helloUser(){
         return "Hello User";
