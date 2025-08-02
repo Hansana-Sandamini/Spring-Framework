@@ -66,6 +66,17 @@
             });
         }
 
+        // // Decode JWT to check role
+        // const payload = JSON.parse(atob(token.split('.')[1]));
+        // const role = payload.role || payload.authorities || "ADMIN" || "USER";
+        //
+        // // Redirect based on role
+        // if (role.includes("ADMIN")) {
+        //     makeAuthenticatedRequest('http://localhost:9090/hello/admin');
+        // } else if (role.includes("USER")) {
+        //     makeAuthenticatedRequest('http://localhost:9090/hello/user');
+        // }
+
         // Determine endpoint based on role (try both endpoints to determine role)
         makeAuthenticatedRequest('http://localhost:9090/hello/admin');
         // If admin fails, it will trigger error and redirect, or we can try user endpoint
